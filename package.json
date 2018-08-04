@@ -1,0 +1,36 @@
+{
+  "name": "@pardjs/core",
+  "version": "0.0.1",
+  "description": "The core of pardjs",
+  "repository": "git@github.com:pardjs/core.git",
+  "author": "ole3021 <ole3021@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "precommit": "lint-staged",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public"
+  },
+  "dependencies": {
+    "@nestjs/common": "^5.1.0",
+    "@nestjs/core": "^5.1.0",
+    "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.6",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.14.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+  }
+}
