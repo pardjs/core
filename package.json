@@ -1,6 +1,6 @@
 {
   "name": "@pardjs/core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "The core of pardjs",
   "repository": "git@github.com:pardjs/core.git",
   "author": "ole3021 <ole3021@gmail.com>",
