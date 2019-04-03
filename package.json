@@ -12,16 +12,16 @@
     "publish:npm": "npm publish --access public"
   },
   "dependencies": {
-    "@nestjs/common": "^5.1.0",
-    "@nestjs/core": "^5.1.0",
-    "dotenv": "^6.0.0"
+    "@nestjs/common": "^6.0.5",
+    "@nestjs/core": "^6.0.5",
+    "dotenv": "^7.0.0"
   },
   "devDependencies": {
-    "@types/dotenv": "^4.0.3",
-    "@types/node": "^10.5.6",
-    "lint-staged": "^7.2.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^11.13.0",
+    "lint-staged": "^8.1.5",
     "prettier": "^1.14.0",
-    "ts-node": "^7.0.0",
+    "ts-node": "^8.0.3",
     "typescript": "^3.0.1"
   },
   "lint-staged": {
